@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title> Survey Form for freeCodeCamp </title>
+  <link rel="stylesheet" href="stylesheet.css">
+</head>
+<div class="container">
+    <h1 id="title">Please Provide your feedback!</h1>
+    <div id="form-outer">
+        <p id="description"><b>Customer Support Survey</b></p>
+        <form action="" id="survey-form">
+            <div class="row">
+                <div class="half">
+                    <label id="name-label" for="name"><em>Name*</em> </label>
+                </div>
+                <div class="half">
+                    <input type="text" id="name" placeholder="Enter your name please" required>
+                </div>
+            </div>
+            <div class="row">
+                <div class="half">
+                    <label id="email-label" for="email"><em>E-mail*</em> </label>
+                </div>
+                <div class="half">
+                    <input type="email" id="email" placeholder="Enter your email address" required>
+                    <p class="error">This is not a valid E-mail address.</p>
+                </div>
+            </div>
+            <div class="row">
+                <div class="half">
+                    <label id="number-label" for="number"><em>Age*</em> </label>
+                </div>
+                <div class="half">
+                    <input type="number" id="number" value="18" min="18" max="99" step="1" placeholder="Age" required>
+                    <p class="error">This is not a valid age for this site.</p>
+                </div>
+            </div>
+            <div class="row">
+                <div class="half">
+                    <label id="dropdown-label" for="dropdown"><em>Satisfaction*</em></label>
+                </div>
+                <div class="half">
+                    <select name="" id="dropdown">
+                        <option value="0" selected disabled>Select One</option>
+                        <option value="1"> Very Satisfied 😀</option>
+                        <option value="2"> Satisfied 😊</option>
+                        <option value="3"> Neutral 😐</option>
+                        <option value="4"> Dissatisfied 😞</option>
+                        <option value="5"> Very Dissatisfied 😖</option>
+                    </select>
+                </div>
+            </div>
+            <div class="row">
+                <div class="half">
+                    <label id="dradio-label" for="radio"><em>Would you use this service again?</em> </label>
+                </div>
+                <div class="half">
+                    <ul id="radio">
+                        <li>
+                            <label>
+                                <input type="radio" name="radio-buttons" value="Yes" checked>
+                                Yes
+                            </label>
+                        </li>
+                        <li>
+                            <label>
+                                <input type="radio" name="radio-buttons" value="Maybe">
+                                Maybe
+                            </label>
+                        </li><li>
+                            <label>
+                                <input type="radio" name="radio-buttons" value="No">
+                                No
+                            </label>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <div class="row">
+                <div class="half">
+                    <label id="dradio-label" for="checkbox"><em>Who would you recommend this service to?</em>(Select all that apply)
+
+                    </label>
+                </div>
+                <div class="half">
+                    <ul id="checkbox">
+                        <li>
+                            <label>
+                                <input type="checkbox" value="Friend">
+                                Friend
+                            </label>
+                        </li>
+                        <li>
+                            <label>
+                                <input type="checkbox" value="Family member">
+                                Family member
+                            </label>
+                        </li><li>
+                            <label>
+                                <input type="checkbox" value="Co-worker">
+                                Co-worker
+                            </label>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <div class="row">
+                <div class="half">
+                    <label id="dradio-label" for="comments"><em>If you have additional comments, please leave them here.</em> </label>
+                </div>
+                <div class="half">
+                    <textarea name="" id="comments" cols="30" rows="10" placeholder="This is the place for your comments..."></textarea>
+                </div>
+            </div>
+            <button id="submit" type="submit">Submit</button>
+        </form>
+    </div>
+
+    <footer class="footer">
+      <hr>
+      <p>Researched and coded by <a href="https://www.freecodecamp.com/" target="_blank">Patrick Hughey</a>.</p>
+    </footer>
+
+</div>
+</html>

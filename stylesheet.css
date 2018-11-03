@@ -1,0 +1,99 @@
+  body {
+    font: 15px/1.5 Arial, Helvetica,sans-serif;
+    padding:0;
+    margin:0;
+    background:url("http://backgroundcheckall.com/wp-content/uploads/2017/12/linkedin-background-image-technology-x-12.jpg")
+  }
+
+
+h1{
+    font-size: 3em;
+    background-color: lightgrey;
+    text-align: center;
+    font-family: sans-serif;
+    font-weight:bold;
+}
+
+#form-outer {
+  background:url("http://listmachinepro.com/wp-content/uploads/2018/03/powerpoint-background-internet-journal-women-in-powerpoint-background-internet.jpg");
+  border-radius: 30px;
+}
+
+.row {
+    display: block;
+    width: 100%;
+  }
+
+p.error {
+    position: absolute;
+    opacity: 0;
+    top: 10px;
+}
+
+
+input[id=email]:invalid + p.error{
+  color: red;
+  opacity: 1;
+}
+
+input[id=number]:invalid + p.error{
+    color: red;
+    opacity: 1;
+}
+
+
+ul {
+    list-style: none;
+    margin-top: 0;
+    padding-left: 0;
+
+}
+
+
+.half {
+        position: relative;
+        display: inline-block;
+        width: 49.9999%;
+        float: left;
+        padding: 7px;
+        box-sizing:border-box;
+        cursor: pointer;
+    }
+
+
+.half:first-of-type {
+        text-align: right;
+    }
+
+
+
+  }
+    input[id=name],
+    input[id=email],
+    input[id=number],
+    input[id=dropdown],
+    input[id=comments],
+    width: 3.3em;
+    height: 3.3em;{
+      -webkit-transition-duration: 0.4s; /* Safari */
+      transition-duration: 0.4s;
+    }
+
+
+
+p#description {
+        font-size: 2em;
+        text-align: center;
+    }
+
+
+#submit {
+        margin: 0 auto;
+        display: block;
+        border-radius: 20px;
+    }
+
+
+.footer{
+  background-color: grey;
+}
